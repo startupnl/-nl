@@ -1,18 +1,12 @@
 
 'use client';
-import Link from 'next/link';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
 
 export default function Home() {
   return (
-    <main className="p-6 max-w-6xl mx-auto space-y-12 text-center">
-      <h1 className="text-4xl font-bold">Welkom bij Startups.nl</h1>
-      <p className="text-lg text-gray-500">Het platform voor de Nederlandse startup scene</p>
-      <div className="flex justify-center mt-4">
-        <Input placeholder="Zoek startups, vacatures, investeerders..." className="w-full max-w-xl" />
-      </div>
-      <Button className="mt-4">Bekijk startups</Button>
+    <main className="p-6 max-w-4xl mx-auto text-center">
+      <h1 className="text-4xl font-bold mb-4">Welkom bij Startups.nl</h1>
+      <p className="text-lg text-gray-600 mb-8">Het platform voor de Nederlandse startup scene.</p>
+      <button className="bg-black text-white px-6 py-3 rounded">Bekijk startups</button>
     </main>
   );
 }
